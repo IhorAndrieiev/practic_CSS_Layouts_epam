@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>CSS Layouts</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./css/style.css" type="text/css">
+</head>
+
+<body>
+  <!-- Your code goes here -->
+  <!-- HEADER -->
+  <header class="header">
+    <div class="container">
+      <nav class="navigation">
+        <a class="logo link" href="/">
+          BLACK & WHITE
+        </a>
+        <ul class="menu__list list">
+          <li class="menu__list-item"><a class="menu__list-link link" href="#">Home</a></li>
+          <li class="menu__list-item"><a class="menu__list-link link" href="#">About</a></li>
+          <li class="menu__list-item"><a class="menu__list-link link" href="#">Vacancies</a></li>
+          <li class="menu__list-item"><a class="menu__list-link link" href="#">Shop</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero__box">
+          <h1 class="hero__title">
+            BLACK <span class="hero__title-span">&</span> WHITE
+          </h1>
+          <p class="description">An Original Brand Since 1965</p>
+          <a class="hero__link link" href="">Show More</a>
+        </div>
+      </div>
+    </section>
+    <!-- ABOUT -->
+    <section class="about">
+      <div class="container">
+        <h2 class="visually-hidden">ABOUT</h2>
+        <ul class="aboul__list list">
+          <li class="about__list-item">
+            <p class="description about__description-right">Lorem ipsum dolor, consectetur adipiscing. Aenean
+              <span class="about__description-span">commodo ligula</span>
+              eget
+              dolor.
+            </p>
+          </li>
+          <li class="about__list-item">
+            <p class="description about__description-left">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+              Aenean commodo ligula eget
+              dolor. Aenean massa.
+              Cum soclis natoque penatibus et magnis dis parturient montes, nuscetur ridiculus mus. Donec quam felis,
+              ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+          </li>
+        </ul>
+      </div>
+
+    </section>
+    <!-- FEATURED ARTICLES -->
+    <section class="articl">
+      <div class="container">
+        <h2 class="articl__title">Read some of our <b class="articl__title-span">featured articles</b></h2>
+        <ul class="articl__list list">
+          <li class="articl__list-item">
+            <div class="article__image__wrap">
+              <div class="article__image__likes">172 &hearts;</div>
+              <div class="article__image__shadow">
+                <img class="articl__list-img" src="./img/sample.jpg" alt="flower on the table" width="528"
+                  height="208" />
+              </div>
+              <div class="article__image__date-place">
+                Januari'15 South France
+              </div>
+            </div>
+            <p class="description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
+              aut ispa dicta dolorem a quibusdam eum quasi vel nobis dolores
+              dolore tempora, ex, assumenda quam veritatis, iure optio soluta
+              sequi?
+            </p>
+          </li>
+          <li class="articl__list-item">
+            <div class="article__image__wrap">
+              <div class="article__image__likes">172 &hearts;</div>
+              <div class="article__image__shadow">
+                <img class="articl__list-img" src="./img/sample1.jpg" alt="hat on the table" width="528" height="208" />
+              </div>
+
+              <div class="article__image__date-place">
+                Januari'15 South America
+              </div>
+            </div>
+            <p class="description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. labore
+              aut ispa dicta dolorem a quibusdam eum quasi vel nobis dolores
+              dolore tempora, ex, assumenda quam veritatis, iure optio soluta
+              sequi?
+            </p>
+          </li>
+          <li class="articl__list-item">
+            <div class="article__image__wrap">
+              <div class="article__image__likes">20 &hearts;</div>
+              <div class="article__image__shadow">
+                <img class="articl__list-img" src="./img/sample.jpg" alt="flower on the table" width="528"
+                  height="208" />
+              </div>
+
+              <div class="article__image__date-place">
+                Januari'15 South France
+              </div>
+            </div>
+            <p class="description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. labore
+              aut ispa dicta dolorem a quibusdam eum quasi vel nobis dolores
+              dolore tempora, ex, assumenda quam veritatis, iure optio soluta
+              sequi?
+            </p>
+          </li>
+          <li class="articl__list-item">
+            <div class="article__image__wrap">
+              <div class="article__image__likes">150 &hearts;</div>
+              <div class="article__image__shadow">
+                <img class="articl__list-img" src="./img/sample1.jpg" alt="hat on the table" width="528" height="208" />
+              </div>
+
+              <div class="article__image__date-place">
+                Januari'15 South America
+              </div>
+            </div>
+            <p class="description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. labore
+              aut ispa dicta dolorem a quibusdam eum quasi vel nobis dolores
+              dolore tempora, ex, assumenda quam veritatis, iure optio soluta
+              sequi?
+            </p>
+          </li>
+        </ul>
+      </div>
+
+    </section>
+    <!-- SUBSCRIBE -->
+    <section class="sub">
+      <div class="container">
+        <h2 class="visually-hidden">subscribe</h2>
+        <form class="sub__form" action="/">
+          <label class="sub__label" for="subscr">Subscribe to our newsletter</label>
+          <input class="sub__input" id="subscr" name="subscr" type="text" placeholder="Enter your e-mail address" />
+          <button class="sub__btn">Subscribe</button>
+        </form>
+      </div>
+
+    </section>
+  </main>
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <ul class="footer__list list">
+        <li class="footer__list-item">
+          <h2 class="footer__title">Black & White</h2>
+          <p class="description">
+            consequuntur magni dolores ratione voluptatem sequi nescue porro
+            quisguam est, qui d sum quia dolor sit amet, cons sum quia sum quia
+          </p>
+        </li>
+        <li class="footer__list-item">
+          <h2 class="footer__title">Last Tweet</h2>
+          <p class="description description__italic">
+            ... aerat voluptatem. Ut eni et illi dolore magnam aliqua et aerat
+            voluptatem. Utils eni tils et al is minima veniam
+          </p>
+          <p class="description description__time">3 hours ago</p>
+        </li>
+        <li class="footer__list-item">
+          <h2 class="footer__title contact__title">Contact</h2>
+          <address class="address">
+            <ul class="contact__list list">
+              <li class="contact__list-item">
+                <a class="contact__list-link link" href="#">www.loremipsumdolar.nl</a>
+              </li>
+              <li class="footer__list-item contact__list-item">
+                <a class="contact__list-link link" href="https://g.page/exelbygreendragon?share" target="_blank">182 AB
+                  Your
+                  Street Name</a>
+              </li>
+              <li class="contact__list-item">
+                <a class="contact__list-link link" href="mailto:e-mail@loremipsum.com">e-mail@loremipsum.com</a>
+              </li>
+              <li class="contact__list-item">
+                <a class="contact__list-link link" href="tel:+121012345679">+(121)01 23 45 679</a>
+              </li>
+            </ul>
+          </address>
+        </li>
+        <li class="footer__list-item">
+          <h2 class="footer__title">Newsletter</h2>
+          <p class="description">
+            Neque porro quisquam eist, im ipsum quia dolor sit amrttur, adipisci
+            velit,
+          </p>
+          <form class="sub__form__bottom" action="/">
+            <input class="sub__input__bottom" id="subbot" name="subbot" type="text"
+              placeholder="Enter your e-mail address" /><button class="sub__btn__bottom">Subscribe</button>
+          </form>
+        </li>
+      </ul>
+      <div class="footer__bottom">
+        <p>&#169; 2015 Ruben Stom</p>
+        <ul class="footer__bottom-list list">
+          <li class="footer__bottom-list-item">Home</li>
+          <li class="footer__bottom-list-item">About</li>
+          <li class="footer__bottom-list-item">Shop</li>
+          <li class="footer__bottom-list-item">Vacancies</li>
+        </ul>
+      </div>
+    </div>
+
+  </footer>
+</body>
+
+</html>
