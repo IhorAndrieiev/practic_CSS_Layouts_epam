@@ -1,0 +1,2 @@
+# practic_CSS_Layouts_epam
+You need to create a HTML page template according to provided design. Вам необходимо создать шаблон HTML-страницы в соответствии с предоставленным дизайном. Use HTML5 semantic elements. Используйте семантические элементы HTML5. Minimum size of screen when web page should not be “broken” is more and equal 900px. Минимальный размер экрана, при котором веб-страница не должна быть «битой», больше и составляет 900 пикселей.
